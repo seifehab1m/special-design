@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design</title>
+    <!------------------------- Css  --------------------->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!------------------------- Fonts  --------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap">
+</head>
+
+<body>
+    <!-- START Setting Box -->
+    <div class="settings-Box">
+        <div class="icon">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <div class="line"></div>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#FF9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#9c27b0"></li>
+                    <li data-color="#673ab7"></li>
+                    <li data-color="#2196f3"></li>
+                    <li data-color="#03a9f4"></li>
+                    <li data-color="#00bcd4"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#4caf50"></li>
+                    <li data-color="#8bc34a"></li>
+                    <li data-color="#ffc107"></li>
+                    <li data-color="#ff5722"></li>
+                    <li data-color="#795548"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="line"></div>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+                <div class="images">
+                    <h4>choose Background</h4>
+                    <div class="line"></div>
+                    <img src="images/landing-1.jpg" alt="">
+                    <img src="images/landing-2.jpg" alt="">
+                    <img src="images/landing-3.jpg" alt="">
+                    <img src="images/landing-4.jpg" alt="">
+                    <img src="images/landing-5.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- END Setting Box -->
+    <!-- start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet active" data-section=".header">
+            <div class="toolTip">Home</div>
+        </div>
+        <div class="bullet" data-section="#about">
+            <div class="toolTip">About Us</div>
+        </div>
+        <div class="bullet" data-section="#skills">
+            <div class="toolTip"> Our Skills</div>
+        </div>
+        <div class="bullet" data-section="#gallery">
+            <div class="toolTip"> Our Gallery</div>
+        </div>
+        <div class="bullet" data-section="#timeline-sec">
+            <div class="toolTip">Timeline </div>
+        </div>
+        <div class="bullet" data-section="#contact">
+            <div class="toolTip">Contact</div>
+        </div>
+    </div>
+
+    <!-- End Nav Bullets -->
+
+    <!-- START LANDING PAGE -->
+    <div class="header">
+        <div class="landing-page">
+            <div class="overlay"></div>
+
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <ul class="links ">
+                    <li> <a href="#" data-section=".header" class="active">Home</a></li>
+                    <li> <a href="#" data-section="#about"> About Us</a></li>
+                    <li><a href="#" data-section="#skills">Our Skills</a></li>
+                    <li><a href="#" data-section="#gallery">Our Gallery</a></li>
+                    <li><a href="#" data-section="#timeline-sec">Timeline </a></li>
+                    <li><a href="#" data-section="#contact">Contact </a></li>
+                </ul>
+                <div class="toggle-container">
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </button>
+                </div>
+            </div>
+
+            <div class="landing-text">
+                <h1>we are <span class="typed"> </span> </h1>
+                <p>
+                    We are a full service design agency based in Milton Keynes,
+                    specialising in strategic and creative design that connects
+                    you to your audience through branding, digital, social
+                    media marketing, and website design.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- END LANDING PAGE -->
+    <!-- START About us PAGE -->
+
+    <section id="about">
+        <div class="main-title">
+            <h2 data-title="A">About Us</h2>
+        </div>
+        <div class="container">
+            <div class="about-us">
+                <div class="info-box">
+
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum maiores pariatur totam
+                        impedit, saepe itaque? Laboriosam quam quis nemo, dolorem praesentium at blanditiis officiis,
+                        labore
+                        repellendus facere quisquam saepe!</p>
+                </div>
+                <div class="image-box">
+                    <img src="./images/about-us.svg" alt="about photo" />
+                </div>
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M44.1,-68.5C56.9,-68.9,67,-56.7,67.9,-43.2C68.7,-29.7,60.2,-14.9,55.3,-2.8C50.4,9.2,49,18.3,47.3,30.3C45.6,42.3,43.5,57.1,35.6,65.7C27.7,74.2,13.8,76.6,2.1,73C-9.7,69.4,-19.3,59.8,-26.9,51C-34.5,42.2,-40,34.3,-51.4,25.9C-62.7,17.5,-79.9,8.8,-80.4,-0.3C-80.9,-9.4,-64.9,-18.8,-53.6,-27.2C-42.2,-35.6,-35.7,-43,-27.5,-45.4C-19.4,-47.7,-9.7,-45.1,2.9,-50.2C15.6,-55.3,31.2,-68.2,44.1,-68.5Z"
+                        transform="translate(100 100)" />
+                </svg>
+            </div>
+        </div>
+
+    </section>
+    <!-- End About us PAGE -->
+
+    <!-- start Our Skills -->
+
+    <section id="skills">
+        <div class="main-title">
+            <h2 data-title="O">Our Skills</h2>
+        </div>
+        <div class="our-skills">
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-name"> HTML</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-name"> Css</div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name"> JavaScript</div>
+                    <div class="skill-progress">
+                        <span data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name"> BootStrap</div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name"> Jquery</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery -->
+    <section id="gallery">
+        <div class="main-title">
+            <h2 data-title="G">Gallery</h2>
+        </div>
+        <div class="gallery">
+            <div class="container">
+                <div class="images-box">
+                    <img src="images/g-1.jpg" alt="image one">
+                    <img src="images/g-2.jpg" alt="image two">
+                    <img src="images/g-3.jpg" alt="image three">
+                    <img src="images/g-4.jpg" alt="image four">
+                    <img src="images/g-5.jpg" alt="">
+                    <img src="images/g-7.jpg" alt="">
+                    <img src="images/landing-1.jpg" alt="">
+                    <img src="images/g-1.jpg" alt="">
+
+                    <img src="images/g-3.jpg" alt="image three">
+                    <img src="images/g-8.jpg" alt="">
+
+
+
+                </div>
+
+            </div>
+            <div class="popup-overlay">
+                <div class="popup-image">
+                    <img src="images/g-2.jpg" alt="">
+                    <div class="popup-icons">
+                        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                        <div class="next"><i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="prev"><i class="fa-solid fa-arrow-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- start timeLine -->
+    <section id="timeline-sec">
+        <div class="main-title">
+            <h2 data-title="T">time Line</h2>
+        </div>
+        <div class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2020</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>testing Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere fugit quaerat enim ab.
+                                Culpa voluptates quo natus. Aperiam voluptates magni iste placeat omnis dolore nemo
+                                beatae necessitatibus libero minima?</p>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>testing Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere fugit quaerat enim ab.
+                                Culpa voluptates quo natus. Aperiam voluptates magni iste placeat omnis dolore nemo
+                                beatae necessitatibus libero minima?</p>
+                        </div>
+
+                    </div>
+                    <div class="clr"></div>
+                    <div class="year">2022</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>testing Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere fugit quaerat enim ab.
+                                Culpa voluptates quo natus. Aperiam voluptates magni iste placeat omnis dolore nemo
+                                beatae necessitatibus libero minima?</p>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+
+                    <div class="left">
+                        <div class="content">
+                            <h3>testing Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facere fugit quaerat enim ab.
+                                Culpa voluptates quo natus. Aperiam voluptates magni iste placeat omnis dolore nemo
+                                beatae necessitatibus libero minima?</p>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end timeLine -->
+
+    <!-- start Contact -->
+    <section id="contact">
+        <div class="overlay"></div>
+        <div class="main-title">
+            <h2 data-title="C">Contact us</h2>
+        </div>
+        <div class="contact-us">
+            <div class="container">
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Your name" name="username">
+                        <input type="number" placeholder="Your Phone" name="phone">
+                        <input type="email" placeholder="Your email" name="email">
+                        <input type="email" placeholder="subject" name="subject">
+                    </div>
+
+                    <div class="right">
+                        <textarea name="message" id="" placeholder="Message..."></textarea>
+                        <input type="submit" value="send">
+
+                    </div>
+                    <div class="clr"></div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end Contact -->
+
+    <!-- start Footer -->
+    <footer>
+        <h6> CREATED BY <span>SEIF ELDEEN EHAB</span></h6>
+    </footer>
+    <!-- end Foter -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <Script src="js/master.js"></Script>
+
+</body>
+
+</html>
